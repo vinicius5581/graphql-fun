@@ -1,5 +1,5 @@
 {
-  "name": "graphql-server",
+  "name": "hackernews-node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^3.9.0",
-    "graphql": "^16.5.0"
+    "@prisma/client": "^4.0.0",
+    "apollo-server": "^2.25.4",
+    "graphql": "^14.7.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.0.0"
   }
 }
